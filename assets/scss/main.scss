@@ -1,0 +1,9 @@
+// main.scss
+@tailwind preflight;
+@tailwind components;
+
+.example-component {
+  @apply .text-black !important;
+}
+
+@tailwind utilities;
